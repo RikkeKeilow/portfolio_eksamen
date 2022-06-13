@@ -242,7 +242,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2%;
-  margin: 0 5% 30px 5%;
+  margin: 100px 5% 50px 5%;
 }
 
 .grid_1_1_ux img {
