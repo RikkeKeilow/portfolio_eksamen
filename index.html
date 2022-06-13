@@ -8,16 +8,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <a href="index.html"> <h3>Forside</h3></a>
-      <a href="portfolio.html"> <h3>Portfolio</h3></a>
-      <a href="om_mig.html"> <h3>Om mig</h3></a>
+    <header class="banner">
+      <a href="index.html"> <img class="logo_header" src="logo.svg" width="20" height="20" alt="Billede af mit logo" /></a>
+      <nav class="main-menu">
+        <button class="toggle-btn">☰</button>
+        <ul>
+          <a href="portfolio.html"> <h3>Portfolio</h3></a>
+          <a href="om_mig.html"> <h3>Om mig</h3></a>
+        </ul>
+      </nav>
     </header>
+
     <main class="forside">
       <img class="logo" src="logo.svg" alt="logo" />
     </main>
-    <footer>
+
+    <footer class="footer_forside">
       <h3>Rikke Tausø Keilow</h3>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>

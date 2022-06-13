@@ -8,16 +8,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <a href="index.html"> <h3>Forside</h3></a>
-      <a href="portfolio.html"> <h3>Portfolio</h3></a>
-      <a href="om_mig.html"> <h3>Om mig</h3></a>
+    <header class="banner">
+      <a href="index.html"> <img class="logo_header" src="logo.svg" width="20" height="20" alt="Billede af mit logo" /></a>
+      <nav class="main-menu">
+        <button class="toggle-btn">☰</button>
+        <ul>
+          <a href="portfolio.html"> <h3>Portfolio</h3></a>
+          <a href="om_mig.html"> <h3>Om mig</h3></a>
+        </ul>
+      </nav>
     </header>
-    <!-- <div class="box1_mig"> -->
+
     <div class="tekst_box1">
       <h1>Rikke Tausø Keilow</h1>
     </div>
-    <!-- </div> -->
+
     <main class="container">
       <div class="box2_mig">
         <img src="webp/profilbillede.webp" alt="billede af mig" />
@@ -136,8 +141,11 @@
         </div>
       </div>
     </main>
+
     <footer>
       <h3>Rikke</h3>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
